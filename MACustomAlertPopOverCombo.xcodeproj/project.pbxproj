@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9B5D05B62532D05E00724763 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D05B52532D05E00724763 /* AppDelegate.swift */; };
-		9B5D05BA2532D05E00724763 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D05B92532D05E00724763 /* ViewController.swift */; };
 		9B5D05BD2532D05E00724763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D05BB2532D05E00724763 /* Main.storyboard */; };
 		9B5D05BF2532D05F00724763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D05BE2532D05F00724763 /* Assets.xcassets */; };
 		9B5D05C22532D05F00724763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5D05C02532D05F00724763 /* LaunchScreen.storyboard */; };
+		9B5D05D22532D2F300724763 /* MAAlertWithInputFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D05D12532D2F300724763 /* MAAlertWithInputFieldsViewController.swift */; };
+		9B5D05D52532D3DB00724763 /* MAInputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D05D42532D3DB00724763 /* MAInputTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B5D05B22532D05E00724763 /* MACustomAlertPopOverCombo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MACustomAlertPopOverCombo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5D05B52532D05E00724763 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B5D05B92532D05E00724763 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B5D05BC2532D05E00724763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B5D05BE2532D05F00724763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B5D05C12532D05F00724763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B5D05C32532D05F00724763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5D05D12532D2F300724763 /* MAAlertWithInputFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAAlertWithInputFieldsViewController.swift; sourceTree = "<group>"; };
+		9B5D05D42532D3DB00724763 /* MAInputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAInputTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				9B5D05BB2532D05E00724763 /* Main.storyboard */,
+				9B5D05D42532D3DB00724763 /* MAInputTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -91,7 +94,7 @@
 		9B5D05CF2532D0C100724763 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9B5D05B92532D05E00724763 /* ViewController.swift */,
+				9B5D05D12532D2F300724763 /* MAAlertWithInputFieldsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,7 +169,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5D05BA2532D05E00724763 /* ViewController.swift in Sources */,
+				9B5D05D52532D3DB00724763 /* MAInputTextField.swift in Sources */,
+				9B5D05D22532D2F300724763 /* MAAlertWithInputFieldsViewController.swift in Sources */,
 				9B5D05B62532D05E00724763 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
